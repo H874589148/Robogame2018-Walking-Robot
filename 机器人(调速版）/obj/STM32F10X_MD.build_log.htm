@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Xuezhong Zhang, Keda, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.21a
+Toolchain Path:  d:\MDK5.21\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+D:\机器人10.4\机器人8.5\Project.uvprojx
+Project File Date:  10/07/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'd:\MDK5.21\ARM\ARMCC\Bin'
+Build target 'STM32F10X_MD'
+compiling main.c...
+main\SteeringEngine.h(6): warning:  #1295-D: Deprecated declaration TIM_PWM_Init - give arg types
+  void TIM_PWM_Init();
+main\Tracking.h(8): warning:  #1295-D: Deprecated declaration brake - give arg types
+  void brake();                   //刹车
+main\main.c(416): warning:  #177-D: variable "n" was declared but never referenced
+  	  u8 n;
+main\main.c(446): warning:  #177-D: variable "n" was declared but never referenced
+  	u8 n;
+main\main.c(1139): warning:  #550-D: variable "t" was set but never used
+  	u8 t=0;
+main\main.c(1223): warning:  #1-D: last line of file ends without a newline
+  	}*/
+main\main.c: 6 warnings, 0 errors
+linking...
+Program Size: Code=19996 RO-data=300 RW-data=220 ZI-data=1060  
+FromELF: creating hex file...
+".\obj\STM32F10X_MD.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+<h2>Collection of Component include folders:</h2>
+  D:\机器人10.4\机器人8.5\RTE
+  d:\MDK5.21\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  d:\MDK5.21\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Build Time Elapsed:  00:00:08
+</pre>
+</body>
+</html>
